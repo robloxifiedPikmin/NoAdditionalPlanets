@@ -65,11 +65,11 @@ jar {
     manifest {
         attributes([
                 'Specification-Title': mod_id,
-                'Specification-Vendor': "ExampleDev",
+                'Specification-Vendor': "robloxifiedPikmin", // my name maybe
                 'Specification-Version': '1', // We are version 1 of ourselves
                 'Implementation-Title': project.name,
                 'Implementation-Version': mod_version,
-                'Implementation-Vendor': "ExampleDev",
+                'Implementation-Vendor': "robloxifiedPikmin",
                 'Implementation-Timestamp': new Date().format('yyyy-MM-dd\'T\'HH:mm:ssZ')
         ])
     }
